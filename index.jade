@@ -3,6 +3,7 @@ html(lang='en')
   head
     meta(charset="utf-8")
     title= title
+    link(rel="shortcut icon", href="http://i02.i.aliimg.com/simg/single/icon/favicon.ico")
     link(rel="stylesheet", type="text/css", href="http://g.tbcdn.cn/thx/cube/1.0.3/neat.css")
     link(rel="stylesheet", type="text/css", href="planet.css")
     link(rel="stylesheet", type="text/css", href="solarized-light.css")
@@ -25,9 +26,9 @@ html(lang='en')
           i.iconfont &#483;
           | Atom
       section
-        p Built #{updated.fromNow()}
-        p
-          | Powered by&nbsp;
+        p Built
+          time(datetime="#{updated.format()}")= updated.fromNow()
+        p Powered by
           a(href="https://github.com/dotnil/cupid") cupid
     div.main
       for post in posts
