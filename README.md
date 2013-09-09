@@ -12,3 +12,8 @@ $ cd cupid-alibaba
 $ cupid build
 $ cupid server
 ```
+
+## Requirement
+
+Requires private module [node-buc](http://gitlab.alibaba-inc.com/node-buc).
+See module readme for installation info.

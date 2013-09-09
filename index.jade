@@ -28,7 +28,7 @@ html(lang='en')
       section
         p Built
           time(datetime="#{updated.format()}")= updated.fromNow()
-        p Powered by
+        p Powered by&nbsp;
           a(href="https://github.com/dotnil/cupid") cupid
     div.main
       for post in posts

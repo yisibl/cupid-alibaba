@@ -26,10 +26,6 @@ nav {
           box-shadow: 0 0 20px #ccc;
 }
 
-nav .logo {
-  font-size: 200%;
-}
-
 .main {
   margin: 30px 0 0 260px;
 }
@@ -117,6 +113,13 @@ img {
 
 
 /*
+ * Utilities
+ */
+.hidden {
+  display: none;
+}
+
+/*
  * article
  */
 .main section {
@@ -162,8 +165,13 @@ img {
 /*
  * aside
  */
+ .logo {
+  display: block;
+  height: 48px;
+  margin-top: 20px;
+ }
 .logo .iconfont {
-  font-size: 30px;
+  font-size: 48px;
   margin-right: 0;
   line-height: 32px;
   margin-right: -2px;
@@ -186,4 +194,31 @@ img {
 .feeds {
   list-style: none;
   padding-left: 0;
+}
+
+.feed-form {
+  margin-top: 30px;
+}
+
+.feed-form .row {
+  margin-bottom: 20px;
+}
+
+.feed-form label {
+  float: left;
+  width: 80px;
+  height: 28px;
+  line-height: 28px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.feed-form .actions {
+  padding-left: 90px;
+}
+
+.feed-form .url {
+  height: 28px;
+  font-size: 16px;
+  width: 340px;
 }

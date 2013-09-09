@@ -11,10 +11,6 @@
       "nickname": "胡伯"
     },
     {
-      "link": "http://cyj.me/feed/atom.xml",
-      "nickname": "逸才"
-    },
-    {
       "link": "http://nuysoft.com/rss.xml",
       "nickname": "墨智"
     },
@@ -31,8 +27,8 @@
       "nickname": "李牧"
     },
     {
-      "link": "http://luckydrq.com/feed.xml",
-      "author": "Lucky Deng <ruoqi.drq@taobao.com>"
+      "link": "http://cyj.me/feed/atom.xml",
+      "author": "逸才 <yicai.cyj@alibaba-inc.com>"
     }
   ]
 }

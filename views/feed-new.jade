@@ -1,0 +1,32 @@
+doctype html5
+html
+  head
+    meta(charset="utf-8")
+    title Add Feed - Planet Alibaba
+    link(rel="stylesheet", type="text/css", href="http://g.tbcdn.cn/thx/cube/1.0.3/neat.css")
+    link(rel="stylesheet", type="text/css", href="/planet.css")
+  body
+    nav
+      a.logo(href='http://ux.etao.com')
+        span.iconfont.at &#481;
+        span.iconfont &#482;
+    div.main
+      section
+        div.author
+          address
+            a(href="mailto:#{user.email}")
+              img(src="http://www.gravatar.com/avatar/#{user.gravatar}?s=80")
+            a(href="mailto:#{user.email}")
+              span.name= user.cname
+            span= user.dep
+        form.feed-form(action="/feeds", method="post")
+          div.row
+            label Feed Link
+            input.url(type="text", name="link", placeholder="http://")
+          div.row.hidden
+            label author
+            input(type="text", name="author", value="#{user.cname} <#{user.email}>")
+          div.actions
+            button(type="submit") Submit
+    script(src="http://g.tbcdn.cn/kissy/k/1.3.1/seed.js")
+    script(src="/javascripts/feed-new.js")
