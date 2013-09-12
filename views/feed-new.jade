@@ -22,7 +22,7 @@ html
         form.feed-form(action="/feeds", method="post")
           div.row
             label Feed Link
-            input.url(type="text", name="link", placeholder="http://")
+            input.url(type="text", name="link", placeholder="http://", value="#{feed.link}")
           div.row.hidden
             label author
             input(type="text", name="author", value="#{user.cname} <#{user.email}>")
