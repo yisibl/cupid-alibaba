@@ -47,9 +47,10 @@ nav {
   font-family: "uxiconfont";
   font-size: 16px;
   font-style: normal;
+  font-weight: normal;
 }
 
-h1, h2, h3, h4 {
+/*h1, h2, h3, h4 {
   margin: 1em 0 0.5em;
 }
 
@@ -67,9 +68,9 @@ h3 {
 
 p, pre {
   margin: 0.5em 0;
-}
+}*/
 
-code, pre {
+/*code, pre {
   font-family: 'Envy Code R', Consolas, Monaco, monospace;
 }
 
@@ -86,9 +87,9 @@ pre code {
   overflow: auto;
   font-size: 90%;
   line-height: normal;
-}
+}*/
 
-ul {
+/*ul {
   margin: 1em 0;
   padding-left: 40px;
   list-style: disc;
@@ -104,12 +105,12 @@ ol {
 blockquote {
   padding-left: 40px;
   margin: 1em 0;
-}
+}*/
 
-img {
+/*img {
   box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;
   border-radius: 2px;
-}
+}*/
 
 
 /*

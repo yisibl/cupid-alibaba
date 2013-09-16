@@ -6,6 +6,7 @@ html(lang='en')
     link(rel="shortcut icon", href="http://i02.i.aliimg.com/simg/single/icon/favicon.ico")
     link(rel="stylesheet", type="text/css", href="http://g.tbcdn.cn/thx/cube/1.0.3/neat.css")
     link(rel="stylesheet", type="text/css", href="planet.css")
+    link(rel="stylesheet", type="text/css", href="type.css")
     link(rel="stylesheet", type="text/css", href="solarized-light.css")
   body
     nav
@@ -33,7 +34,7 @@ html(lang='en')
           time(datetime="#{updated.format()}")= updated.fromNow()
         p Powered by&nbsp;
           a(href="https://github.com/dotnil/cupid") cupid
-    div.main
+    div.main.type
       for post in posts
         section
           div.author
