@@ -190,11 +190,16 @@ th {
 .type pre{
     background-color: #F8F8F8;
     border: 1px solid #DDD;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 18px;
     overflow: auto;
     padding: 6px 10px;
     border-radius: 3px;
+}
+
+.type pre code{
+    border: 0 none;
+    border-radius: 0;
 }
 
 hr{
