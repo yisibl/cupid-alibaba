@@ -43,75 +43,16 @@ nav {
        url('http://t.tbcdn.cn/apps/e/brix/fonts/uxiconfont.svg#svgFontName') format('svg'); /* iOS 4.1- */
 }
 
-.iconfont{
+.iconfont {
   font-family: "uxiconfont";
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
 }
 
-/*h1, h2, h3, h4 {
-  margin: 1em 0 0.5em;
-}
-
-h1 {
-  font-size: 180%;
-}
-
-h2 {
-  font-size: 140%;
-}
-
-h3 {
-  font-size: 120%;
-}
-
-p, pre {
-  margin: 0.5em 0;
-}*/
-
-/*code, pre {
-  font-family: 'Envy Code R', Consolas, Monaco, monospace;
-}
-
-pre {
-  border: 1px solid #ddd;
-  border-radius: 2px;
-}
-
 pre code {
-  display: block;
-  padding: 5px 10px;
   background: #fdf6e3;
-  box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.1);
-  overflow: auto;
-  font-size: 90%;
-  line-height: normal;
-}*/
-
-/*ul {
-  margin: 1em 0;
-  padding-left: 40px;
-  list-style: disc;
 }
-
-ol {
-  margin: 1em 0;
-  padding-left: 40px;
-  list-style: cjk-ideographic;
-  list-style: decimal;
-}
-
-blockquote {
-  padding-left: 40px;
-  margin: 1em 0;
-}*/
-
-/*img {
-  box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;
-  border-radius: 2px;
-}*/
-
 
 /*
  * Utilities
